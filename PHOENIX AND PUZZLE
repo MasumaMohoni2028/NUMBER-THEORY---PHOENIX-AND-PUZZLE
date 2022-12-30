@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define op() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+int main()
+{
+	op();
+	ll t;
+	cin>>t;
+	while (t--)
+	{
+		int n;
+		cin>>n;
+		int x=sqrt(n);
+		int y=sqrt(n/2);
+		if(((n%2==0) && x*x==n) || 2*y*y==n)cout<<"YES"<<endl;
+		else cout<<"NO"<<endl;
+
+	}
+}
+			
+
